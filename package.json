@@ -1,0 +1,17 @@
+{
+  "name": "sts-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i && jest --testEnvironment=node --testTimeout=60000"
+  },
+  "author": "Adam Brunner <BrunnerAdamJ@johndeere.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "26.6.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sts": "3.13.1"
+  }
+}
